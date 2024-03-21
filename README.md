@@ -3,13 +3,13 @@
 Ley antifraude 2021 (VERIFACTU)
 
 
-##_¿Qué es VERIFACTU?_
+## _¿Qué es VERIFACTU?_
 
 Verifactu es un sistema impulsado por la Agencia Tributaria que tiene el objetivo de luchar contra el fraude fiscal e impulsar la digitalización y automatización de los procesos de fiscalidad empresarial.
 
 Las aplicaciones informáticas deberán generar un registro de facturación en el momento de expedir la factura.
 
-###[Enlace al hilo inicial en Club Delphi sobre VERIFACTU.](https://www.clubdelphi.com/foros/showthread.php?t=95235)
+### [Enlace al hilo inicial en Club Delphi sobre VERIFACTU.](https://www.clubdelphi.com/foros/showthread.php?t=95235)
 
 ## Enlaces importantes VERI*FACTU
 
