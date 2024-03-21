@@ -27,3 +27,31 @@ En el momento de crear este documento ( 2024-03-21 ) nos encontramos con los sig
 4 - Esquemas de los servicios web.
 
 5 - Presentaciones.
+
+
+
+## WSDL
+
+Enlaces directos a la web de la Agencia Tributaria.
+
+[Remisión de información de registros de facturación para sistemas VERI*FACTU y no VERI*FACTU (por requerimiento AEAT)](https://www.agenciatributaria.es/static_files/AEAT_Desarrolladores/EEDD/IVA/VERI-FACTU/WSDL/SistemaFacturacion.wsdl)
+
+## XSD
+
+Enlaces directos a la web de la Agencia Tributaria.
+
+[SuministroLR.xsd - Operaciones de alta y anulación de los sistemas VERI*FACTU y no VER*FACTU Archivo descargable](https://www.agenciatributaria.es/static_files/AEAT_Desarrolladores/EEDD/IVA/VERI-FACTU/Esquemas-SWeb/SuministroLR.xsd)
+
+[RespuestaSuministro.xsd - Respuesta de las operaciones de los sistemas VERI*FACTU y no VER*FACTU](https://www.agenciatributaria.es/static_files/AEAT_Desarrolladores/EEDD/IVA/VERI-FACTU/Esquemas-SWeb/RespuestaSuministro.xsd)
+
+[SuministroInformacion.xsd - Definición de tipos comunes](https://www.agenciatributaria.es/static_files/AEAT_Desarrolladores/EEDD/IVA/VERI-FACTU/Esquemas-SWeb/SuministroInformacion.xsd)
+
+## Recursos Delphi para trabajar con WSDL y con XSD
+
+ [Utilizando XML Data Binding Wizard](https://docwiki.embarcadero.com/RADStudio/Athens/en/Using_the_XML_Data_Binding_Wizard)
+
+ [Utilizando el código generado por el XML Data Binding Wizard](https://docwiki.embarcadero.com/RADStudio/Athens/en/Using_Code_That_the_XML_Data_Binding_Wizard_Generates)
+
+ [Importando WSDL](https://docwiki.embarcadero.com/RADStudio/Athens/en/Import_WSDL_Wizard)
+
+
