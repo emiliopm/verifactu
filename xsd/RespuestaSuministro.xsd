@@ -17,7 +17,7 @@
 					<documentation xml:lang="es"> Se devuelven datos de la presentacion realizada. Solo se genera si no hay rechazo del envio </documentation>
 				</annotation>
 			</element>
-			<element name="Cabecera" type="sf:Cabecera">
+			<element name="Cabecera" type="sf:CabeceraType">
 				<annotation>
 					<documentation xml:lang="es"> Se devuelve la cabecera que se incluyó en el envío. </documentation>
 				</annotation>
@@ -63,6 +63,8 @@
 					<documentation xml:lang="es"> ID Factura Expedida </documentation>
 				</annotation>
 			</element>
+			<element name="Operacion" type="sf:OperacionType"/>
+			<element name="RefExterna" type="sf:TextMax60Type" minOccurs="0"/>
 			<element name="EstadoRegistro" type="sfR:EstadoRegistroType">
 				<annotation>
 					<documentation xml:lang="es"> 
@@ -77,25 +79,18 @@
 					</documentation>
 				</annotation>
 			</element>
-			<element name="DescripcionErrorRegistro" type="sf:TextMax500Type" minOccurs="0">
+			<element name="DescripcionErrorRegistro" type="sf:TextMax1500Type" minOccurs="0">
 				<annotation>
 					<documentation xml:lang="es"> 
 						Descripción detallada del error de registro, en su caso.
 					</documentation>
 				</annotation>
 			</element>
-			<element name="CSVRegistroDuplicado" type="string" minOccurs="0">
+			<element name="RegistroDuplicado" type="sf:RegistroDuplicadoType" minOccurs="0">
 				<annotation>
 					<documentation xml:lang="es"> 
-						CSV asociado a la factura registrada previamente en el sistema. Solo se suministra si la factura enviada es rechazada por estar duplicada
+						Solo en el caso de que se rechace el registro por duplicado se devuelve este nodo con la informacion registrada en el sistema para este registro
 					</documentation>
-				</annotation>
-			</element>
-			<element name="EstadoRegistroDuplicado" type="sf:EstadoRegistroSFType" minOccurs="0">
-				<annotation>
-					<documentation xml:lang="es"> 
-						Estado del registro duplicado almacenado en el sistema. Los estados posibles son: Correcta, AceptadaConErrores y Anulada. Solo se suministra si la factura enviada es rechazada por estar duplicada
-											</documentation>
 				</annotation>
 			</element>
 		</sequence>
